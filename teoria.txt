@@ -1,0 +1,34 @@
+Propriedade(props)
+- informações passadas pra ser usadas dentro do componente
+-podem ser: número, string, funções
+- são passadas para o componente atravês de atributos
+- via UNidirecional: as props so podem ser transferidos de componentes pais pros filhos
+
+
+TypeScript
+- todo o codigo precisa ser convertido em JS para que o browser entenda
+- variaveis e valores são tipados (tipagem estática/forte)
+- tipagem pode ser declarada de fomra implicita ou explicita
+
+
+Imutabilidade
+- formas de alterar dados 
+    1- alterar diretamente os valores d euma variavel
+    2 - substituindo o objeto original por uma copia dele só que contendo os dados alterados dentro dele
+- alteração sem mutação = Imutabilidade
+- um componente é rerenderizado onde sua referência é diferente da anterior
+
+Estados
+- os states são gerenciados de forma parecida com variáveis declaradas dentro de uma função
+- são gerenciados dentro do proprio componente
+- função: setState()  -- faz as modificações do componente
+- sempre que um elemento do estado é alterado, o componente é renderizado novamente atualizando apenas as informações necessárias
+-- metodo 'spred' : ... -- pega o elemento atual e fazemos uma copia por meio dele
+
+
+Hooks
+-- useState 
+
+localStorage
+-- tipo de armazenamento web
+- mantém os dados ao fechar a página
